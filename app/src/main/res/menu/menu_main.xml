@@ -8,4 +8,9 @@
         android:id="@+id/settings"
         />
 
+    <item android:title="About App"
+        android:icon="@android:drawable/ic_menu_set_as"
+        app:showAsAction="never"
+        android:id="@+id/about"
+        />
 </menu>

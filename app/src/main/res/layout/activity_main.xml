@@ -17,10 +17,20 @@
         app:popupTheme="@style/Base.ThemeOverlay.AppCompat.Light"
         app:title="@string/app_name" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/progressLayout">
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+    </LinearLayout>
     <WebView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/website"
         />
+
 
 </LinearLayout>
